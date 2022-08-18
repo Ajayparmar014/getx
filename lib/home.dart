@@ -37,10 +37,19 @@ class Home extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                Get.back();
+                // Get.back();
+                // send data to previous screen must use result as name
+                Get.back(result: ',This is data came from home screen');
               },
               child: const Text('Back to Main Screen'),
             ),
+            const SizedBox(
+              height: 8,
+            ),
+            // Text(
+            //   "${Get.arguments}",
+            //   style: const TextStyle(color: Colors.green, fontSize: 20),
+            // ),
           ],
         ),
       ),

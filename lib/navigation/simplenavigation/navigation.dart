@@ -1,6 +1,8 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
-import 'package:getx2/home.dart';
+import 'package:getx2/navigation/simplenavigation/home.dart';
 
 void main() {
   runApp(const MyApp());

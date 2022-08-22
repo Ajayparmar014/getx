@@ -2,7 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:getx2/controller/controller.dart';
+
+import 'controller.dart';
 
 void main() {
   runApp(MyApp());

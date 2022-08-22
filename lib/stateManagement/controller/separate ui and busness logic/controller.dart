@@ -1,6 +1,8 @@
 import 'package:get/state_manager.dart';
-import 'package:getx2/controller/students.dart';
+
 import 'package:get/get.dart';
+
+import 'students.dart';
 
 //mycontroller is define by us it is name of controller
 class MyController extends GetxController {
